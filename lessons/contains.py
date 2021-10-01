@@ -7,7 +7,7 @@ def main() -> None:
 
 
 def contains(needle: str, haystack: list[str]) -> bool:
-    """Return True if needle is found in haystack, False otherwise"""
+    """Return True if needle is found in haystack, False otherwise."""
     i: int = 0
     while i < len(haystack):
         if haystack[i] == needle:

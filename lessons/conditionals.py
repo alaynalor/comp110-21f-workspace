@@ -9,6 +9,6 @@ guess: int = int(input("What is your guess? "))
 if guess == SECRET:
     print("You guessed correctly!!!")
 else:
-    print ("Sorry, you guessed incorrectly.")
+    print("Sorry, you guessed incorrectly.")
 
-print ("Game over.")
+print("Game over.")
